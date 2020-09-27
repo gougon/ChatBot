@@ -1,0 +1,59 @@
+{
+    "size": {
+      "width": 800,
+      "height": 540
+    },
+    "selected": true,
+    "name": "richmenu-1",
+    "chatBarText": "功能選單",
+    "areas": [
+      {
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "width": 400,
+          "height": 270
+        },
+        "action": {
+          "type": "postback",
+          "data": "ums"
+        }
+      },
+      {
+        "bounds": {
+          "x": 400,
+          "y": 0,
+          "width": 400,
+          "height": 270
+        },
+        "action": {
+          "type": "postback",
+          "data": "dms"
+        }
+      },
+      {
+        "bounds": {
+          "x": 0,
+          "y": 270,
+          "width": 400,
+          "height": 270
+        },
+        "action": {
+          "type": "postback",
+          "data": "report"
+        }
+      },
+      {
+        "bounds": {
+          "x": 400,
+          "y": 270,
+          "width": 400,
+          "height": 270
+        },
+        "action": {
+          "type": "postback",
+          "data": "kvs"
+        }
+      }
+   ]
+}
